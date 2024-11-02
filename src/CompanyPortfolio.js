@@ -10,6 +10,7 @@ import greatwallImage from './assets/greatwall.jpg';
 import HighwayImage from './assets/highway.jpg';
 import MilimaniImage from './assets/milimani.jpg';
 import MidadImage from './assets/midad.jpg';
+import ReubenImage from './assets/Reuben.jpg';
 
 
 
@@ -37,10 +38,10 @@ const CompanyPortfolio = () => {
       id: 1, 
       name: 'REUBEN SIMUYA WAMBETE', 
       role: 'CEO', 
-      image: tomImage, 
-      linkedin: '#', 
-      twitter: '#', 
-      facebook: '#',
+      image: ReubenImage, 
+      linkedin: 'https://www.linkedin.com/in/reuben-simuya-7770a91b2', 
+     twitter: 'https://x.com/RSimuya', 
+      facebook: 'https://www.facebook.com/reuben.simuya',
       bio: 'Reuben is an experienced leader with a passion for innovation and sustainable development.'
     },
     { 
@@ -58,9 +59,9 @@ const CompanyPortfolio = () => {
       name: 'LENOX ETENYI', 
       role: 'MARKETING', 
       image: lenoxImage, 
-      linkedin: '#', 
-      twitter: '#', 
-      facebook: '#',
+      /* linkedin: '#',*/
+      twitter: 'https://x.com/omondilenox46?t=t8XmsPb-hMwhFOImjH4iCA&s=09', 
+      facebook: 'https://www.facebook.com/lenox.etenyi?mibextid=ZbWKwL',
       bio: 'Lenox is a creative marketing strategist with a knack for digital campaigns and brand development.'
     },
   ];
@@ -68,15 +69,13 @@ const CompanyPortfolio = () => {
   const services = [
     { 
       id: 1, 
-      title: 'Pitch Construction', 
+      title: 'Construction', 
       description: 'We make your pitch investment  a quality construction biuld', 
       icon: <FaHardHat />, 
       details: 'your investment  construction  is our responsibility to give  it longivity and quality standardization ',
       items: [
         'football pitchs ',
         'swiming pool ',
-        'Homes ',
-        'bridges'
        
       ]
     },
@@ -87,7 +86,9 @@ const CompanyPortfolio = () => {
       icon: <FaTools />, 
       details: 'We  make sure all your  investments are safe and in good shape to put a smile on your face ',
       items: [
-        ''
+        'football pitch ',
+        'sweeming pool',
+
         
       ]
     },
@@ -98,6 +99,7 @@ const CompanyPortfolio = () => {
       icon: <FaDraftingCompass />, 
       details: 'Our design team creates user-centric interfaces that are not only aesthetically pleasing but also enhance user engagement and satisfaction.',
       items: [
+        'football pitch',
         'homes ',
         'fields',
         'SwimmingPool',
@@ -398,17 +400,20 @@ const CompanyPortfolio = () => {
                 </div>
                 <div className="flex items-center">
                   <FaEnvelope className="text-gray-600 mr-2" />
-                  <span className="text-gray-600">spectreallusiongreen46@gmail.com</span>
+                  <span className="text-gray-600">info@spectreallusiongreen.com</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+       
       </section>
 
       {/* Footer */}
       <footer className="bg-green-900 text-white py-4">
+        
         <div className="container mx-auto px-6 text-center">
+          
           <p className="text-sm">&copy; {new Date().getFullYear()} Spectre allusion green. All rights reserved.</p>
         </div>
       </footer>
